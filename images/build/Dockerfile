@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM maven:3-jdk-8-slim
+FROM arm64v8/maven:3-jdk-8-slim
 ARG FN_REPO_URL
 ADD pom.xml /tmp/cache-deps/pom.xml
 ADD local-settings.xml /tmp/cache-deps/local-settings.xml

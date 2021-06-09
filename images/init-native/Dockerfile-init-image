@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM alpine:latest
+FROM arm64v8/alpine:latest
 
 WORKDIR /build
 COPY src src

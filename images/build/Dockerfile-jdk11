@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FROM maven:3-jdk-11-slim
+FROM arm64v8/maven:3-jdk-11-slim
 
 ARG FN_REPO_URL
 
